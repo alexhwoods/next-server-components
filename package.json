@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "postinstall": "node scripts/build",
+    "postinstall": "node scripts/build --trace-deprecation",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -21,15 +21,15 @@
     "ioredis": "^4.19.4",
     "marked": "^1.2.7",
     "micro-cookie-session": "^2.0.0-beta.1",
-    "next": "^10.0.4",
+    "next": "^11.1.0",
     "oauth": "^0.9.15",
-    "react": "0.0.0-experimental-3310209d0",
-    "react-dom": "0.0.0-experimental-3310209d0",
+    "react": "^0.0.0-experimental-b6ff9ad16-20210820",
+    "react-dom": "^0.0.0-experimental-b6ff9ad16-20210820",
     "react-error-boundary": "^3.1.0",
     "react-fetch": "0.0.0-experimental-3310209d0",
-    "react-server-dom-webpack": "0.0.0-experimental-3310209d0",
+    "react-server-dom-webpack": "^0.0.0-experimental-ee6a05c2b",
     "sanitize-html": "^2.3.0",
-    "webpack": "4.44.1"
+    "webpack": "^5.51.1"
   },
   "devDependencies": {
     "prettier": "2.2.1"

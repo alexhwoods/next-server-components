@@ -7,6 +7,8 @@ yarn-error.log
 .vercel
 
 .env
+.env.local
 
 libs/react-client-manifest.json
 libs/send-res.build.js
+libs/send-res.build.js.LICENSE.txt
